@@ -1,4 +1,4 @@
-python_task_1
+python_task_1 on strings.
 
 1.to check whether there "to" is present in the statement "welcome to world"
 
@@ -20,23 +20,80 @@ code2:   str="welcome to world"
 a. max(str) 
 Returns the max alphabetical character from the string str.
 
+>>> str=["welcome","to","python","classes","zzzyyyzzz"]
+>>> max(str)
+'zzzyyyzzz'
+>>> str=["welcome","to","python","classes"]
+>>> max(str)
+'welcome'
+
 b. min(str)
  Returns the min alphabetical character from the string str.
  
+>>> str=["welcome","to","python","classes","zzzyyyzzz"]
+>>> min(str)
+'classes'
+>>> str=["python","anaconda","blocked","chain"]
+>>> min(str)
+'anaconda'
+
+ 
 c. isalnum()
  Returns true if string has atleast 1 character and allcharacters are alphanumeric and false otherwise.
+ 
+>>> str="python3"
+>>> str.isalnum()
+True
+>>> str="python_3.6"
+>>> str.isalnum()
+False
 
 d. isalpha()
  Returns true if string has atleast 1 character and allcharacters are alphabetic and false otherwise.
+ 
+>>> str="python"
+>>> str.isalpha()
+True
+>>> str="jypter lab is the package of anaconda distribution"
+>>> str.isalpha()
+False
 
 e. isdigit()
  Returns true if string contains only digits and false otherwise.
  
+>>> str="12345"
+>>> str.isdigit()
+True
+>>> str="12345.3"
+>>> str.isdigit()
+False
+ 
 f. isspace()
  Returns true if string contains only whitespace characters and false otherwise.
+ 
+>>> str="jypter lab is the package of anaconda distribution"
+>>> str.isspace()
+False
+>>> str="   "
+>>> str.isspace()
+True
 
 g. istitle() 
  Returns true if string is properly "titlecased" and false otherwise. 
+ 
+>>> str="Helllo World"
+>>> str.istitle()
+True
+>>> str="hello world!!"
+>>> str.istitle()
+False
 
 h. join(seq) 
  Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string. 
+ 
+>>> str=["This","is","python"]
+>>> '-'.join(str)
+'This-is-python'
+>>> str=["Time","is","9:30"]
+>>> '-'.join(str)
+'Time-is-9:30'
