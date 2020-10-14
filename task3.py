@@ -1,6 +1,6 @@
- # python_task3 on dictionary
+ python_task3 on dictionary
 
-# 1.
+1.
 dict={
     "april_batch":{
         "student":{
