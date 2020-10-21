@@ -1,3 +1,6 @@
+task on functions
+
+1.
 def no(n1,n2):
     x=n1
     y=n2
@@ -14,11 +17,11 @@ enter second number 12
 first and second number is 23 and 12
 
 
-
+2.
 ''' press 1 for addition
-    press 2 for subtraction
-    press 3 for multiplication
-    press 4 for division
+ press 2 for subtraction
+ press 3 for multiplication
+ press 4 for division'''
 def op(i):
       x=int(input("enter first number"))
       y=int(input("enter second number"))
@@ -38,16 +41,16 @@ def op(i):
           print("invalid i")
 
 j=int(input("enter valid i"))
-op(j)'''
+op(j)
 
-'''output:
+output:
 enter valid i 3
 enter first number 90
 enter second number 78
-product of 90 and 78 is 7020'''
+product of 90 and 78 is 7020
 
-
-'''def sum(x,y):
+3.
+def sum(x,y):
     z=x+y
     return z
 
@@ -80,7 +83,7 @@ enter second number 90
 sum of 45 and 90 is 135
 difference of 45 and 90 is -45
 product of 45 and 90 is 4050
-division of 45 and 90 is 0.5'''
+division of 45 and 90 is 0.5
 
 
 
