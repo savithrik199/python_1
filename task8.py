@@ -1,8 +1,10 @@
-'''Zip() function
+task on zip(),reduce(),enemurate()
+
+Zip() function
 The purpose of zip() is to map the similar index of multiple containers so that they can be used just using as single entity.
 
 Syntax :
-zip(*iterators)'''
+zip(*iterators)
 
 name = ["Manjeet", "Nikhil", "Shambhavi", "Astha"]
 roll_no = [4, 1, 3, 2]
@@ -18,22 +20,23 @@ mapped = list(mapped)
 print("The zipped result is : ", end="")
 print(mapped)
 
-'''for i,j,k in zip(name,y,z):
+for i,j,k in zip(name,y,z):
     if(i=="Nikhil"):
         continue
     print(f" Name is {i} , roll no is {j} ,marks is {k}")
 
- The zipped result is : [('Manjeet', 4, 40), ('Nikhil', 1, 50), ('Shambhavi', 3, 60), ('Astha', 2, 70)]
+output: 
+The zipped result is : [('Manjeet', 4, 40), ('Nikhil', 1, 50), ('Shambhavi', 3, 60), ('Astha', 2, 70)]
  Name is Manjeet , roll no is 4 ,marks is 40
  Name is Shambhavi , roll no is 3 ,marks is 60
  Name is Astha , roll no is 2 ,marks is 70'''
 
-#Enemurate()
+Enemurate()
 
-#Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
-#This enumerate object can then be used directly in for loops or be converted into a list of tuples using list() method.
+Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
+This enumerate object can then be used directly in for loops or be converted into a list of tuples using list() method.
 
-#synax= enumerate(iterable, start=0)
+synax= enumerate(iterable, start=0)
 
 l1 = ["eat", "sleep", "repeat"]
 s1 = "geek"
@@ -72,10 +75,13 @@ for count, ele in enumerate(l1, 100):
 101 sleep
 102 repeat'''
 
+reduce()
 from functools import reduce
-
 lst=[1,2,3,4,5]
-
 print(reduce(lambda a,d:a+d ,lst))
 
 print(reduce( lambda a,c:a*c ,lst))
+
+output:
+15
+120
